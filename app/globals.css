@@ -126,7 +126,7 @@ body {
 
   /* Navbar */
   .nav-phone {
-    @apply block absolute top-full left-0 right-0  bg-slate-50 border-y-2 border-green-50;
+    @apply block absolute top-full left-0 right-0 bg-slate-50 border-y-2 border-green-50 animate-slideDown;
   }
 
   .btn_dark_green_navbar {

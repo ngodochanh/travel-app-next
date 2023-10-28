@@ -48,7 +48,7 @@ function Navbar() {
           <Link
             key={link.key}
             href={link.href}
-            className={`regular-16 text-gray-50 flexCenter cursor-pointer transition-all hover:font-bold ${
+            className={`regular-16 text-gray-50 flexCenter cursor-pointer hover:font-bold ${
               navbar && 'hover:bg-green-50 py-2 hover:text-white'
             } `}
             onClick={() => setNavbar(false)}

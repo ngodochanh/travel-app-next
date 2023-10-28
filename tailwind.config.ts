@@ -48,6 +48,21 @@ const config: Config = {
       borderRadius: {
         '5xl': '40px',
       },
+      keyframes: {
+        slideDown: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-100%)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0%)',
+          },
+        },
+      },
+      animation: {
+        slideDown: 'slideDown 1s ease-in-out',
+      },
     },
   },
   plugins: [],
